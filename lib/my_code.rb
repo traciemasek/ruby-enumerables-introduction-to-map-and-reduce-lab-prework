@@ -38,3 +38,12 @@ def map_to_square(arr)
   end
   new_arr
 end
+
+#reduce-like methods
+def reduce_to_total(arr)
+  
+end
+
+
+
+
