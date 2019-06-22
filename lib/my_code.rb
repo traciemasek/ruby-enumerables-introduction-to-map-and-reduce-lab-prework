@@ -45,6 +45,7 @@ def reduce_to_total(arr, start=0)
   total = start
   while i < arr.length do
     total = total + arr[i]
+    i += 1
   end
   total
 end
