@@ -28,3 +28,13 @@ def map_to_double(arr)
   end
   new_arr
 end
+
+def map_to_square(arr)
+  i=0 
+  new_arr = []
+  while i < arr.length do 
+    new_arr << arr[i] ** 2
+    i += 1 
+  end
+  new_arr
+end
