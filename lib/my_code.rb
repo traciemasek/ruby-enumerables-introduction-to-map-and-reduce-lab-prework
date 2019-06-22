@@ -5,4 +5,5 @@ def map_to_negativize(arr)
     arr[i] * -1
     i += 1 
   end
+  arr
 end
